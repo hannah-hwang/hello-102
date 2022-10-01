@@ -1,0 +1,32 @@
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/1496/0124/products/GinghamTan_x700.jpg?v=1648487490);
+}
+
+h1 {
+font-size: 65px;
+color: #564a45;
+}
+
+h2 {
+    color: #52796f;
+}
+
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #857165;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    width: 30%;
+}
