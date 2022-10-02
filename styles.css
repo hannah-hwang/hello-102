@@ -6,12 +6,26 @@ header {
 }
 
 h1 {
-font-size: 65px;
-color: #564a45;
+    font-size: 65px;
+    color: #564a45;
+    letter-spacing: 8px;
 }
 
 h2 {
     color: #52796f;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+
+#description {
+    padding-top: 5px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 20px;
 }
 
 a {
@@ -22,11 +36,32 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #ada6a2;
+}
+
 body {
     text-align: center;
+}
+
+main {
+    background-color: #d9d7d3;
 }
 
 section {
     display: inline-block;
     width: 30%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.lower {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    background-color: #d9d7d3;
 }
