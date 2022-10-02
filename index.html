@@ -8,6 +8,10 @@
 
 <body>
     <header>
+        <script>
+            let usersName = prompt("What is your name?");
+            document.write("Hello, " + usersName + "! Hope you like bread!");
+        </script>
         <h1>BREAD</h1>
         <nav>
             <a href="https://ayferness.github.io/hello-world/index.html">Types of Bread</a>
@@ -49,6 +53,36 @@
                 the bakeries in your area and what they specialize in. Take your bread journey outside your home!</p>
         </section>
     </main>
+    <script>
+        let usersAns = prompt("Guess what bread I'm thinking of?");
+        if (usersAns === "sourdough bread") {
+            document.write("Correct!")
+        }
+        else {
+            document.write("Nope!")
+        }
+    </script>
+    <p>
+        <script>
+            let response = prompt("Was this page helpful?");
+            console.log("User said:" + response);
+            if (response == "Yes") {
+                document.write("Glad we could help!")
+            }
+            else if (response == "No") {
+                document.write("Ok! Thanks for visiting!")
+            }
+            else if (response == "no") {
+                document.write("Ok! Thanks for visiting!")
+            }
+            else if (response == "yes") {
+                document.write("Glad we could help!")
+            }
+            else {
+                document.write("Hmmm.. Please try again.")
+            }
+        </script>
+    </p>
     <footer>
         &copy;Hannah Hwang 2022
     </footer>
