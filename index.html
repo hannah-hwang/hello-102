@@ -4,14 +4,12 @@
 <head>
     <title>Bread</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="apps.js"></script>
 </head>
 
 <body>
     <header>
-        <script>
-            let usersName = prompt("What is your name?");
-            document.write("Hello, " + usersName + "! Hope you like bread!");
-        </script>
+        <script>yourName()</script>
         <h1>BREAD</h1>
         <nav>
             <a href="https://ayferness.github.io/hello-world/index.html">Types of Bread</a>
@@ -29,6 +27,9 @@
             information on the different kinds of bread, as well as recipes and local bakeries in your area to help you
             get started on your bread journey!</p>
         <p>&#186; &#186; &#186;</p>
+        <p>
+            <script>guessBread()</script>
+        </p>
         <section>
             <img src="https://images.unsplash.com/photo-1585883112453-e6447a7f683f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                 alt="baguettes" width="350" height="190">
@@ -53,36 +54,8 @@
                 the bakeries in your area and what they specialize in. Take your bread journey outside your home!</p>
         </section>
     </main>
-    <script>
-        let usersAns = prompt("Guess what bread I'm thinking of?");
-        if (usersAns === "sourdough bread") {
-            document.write("Correct!")
-        }
-        else {
-            document.write("Nope!")
-        }
-    </script>
-    <p>
-        <script>
-            let response = prompt("Was this page helpful?");
-            console.log("User said:" + response);
-            if (response == "Yes") {
-                document.write("Glad we could help!")
-            }
-            else if (response == "No") {
-                document.write("Ok! Thanks for visiting!")
-            }
-            else if (response == "no") {
-                document.write("Ok! Thanks for visiting!")
-            }
-            else if (response == "yes") {
-                document.write("Glad we could help!")
-            }
-            else {
-                document.write("Hmmm.. Please try again.")
-            }
-        </script>
-    </p>
+
+    <script>pageHelpful()</script>
     <footer>
         &copy;Hannah Hwang 2022
     </footer>
